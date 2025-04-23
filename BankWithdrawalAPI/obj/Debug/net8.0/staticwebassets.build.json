@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "dxdVdEBbmFo8dBoKzovJ5zfvTh7dUZjocMNVITAenRo=",
+  "Source": "BankWithdrawalAPI",
+  "BasePath": "_content/BankWithdrawalAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

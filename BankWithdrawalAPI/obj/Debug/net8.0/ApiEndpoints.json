@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "BankWithdrawalAPI.Controllers.BankAccountController",
+    "Method": "Withdraw",
+    "RelativePath": "bank/withdraw",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
