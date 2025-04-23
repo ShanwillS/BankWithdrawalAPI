@@ -17,8 +17,9 @@ The core business function is to allow a withdrawal from a bank account, ensurin
 ## Architecture Overview
 
 This project follows a simplified **Clean Architecture** approach:
-
+```
 Controller ➜ Service ➜ Repository + Event Publisher ➜ Model
+```
 
 - **Controller**: Handles HTTP requests
 - **Service**: Contains business logic (withdrawal rules, flow control)
@@ -41,8 +42,10 @@ Controller ➜ Service ➜ Repository + Event Publisher ➜ Model
 
 ## How to Run
 
-1. Clone the repo: git clone https://github.com/ShanwillS/BankWithdrawalAPI.git
-
+1. Clone the repo:
+  ```
+    git clone https://github.com/ShanwillS/BankWithdrawalAPI.git
+  ```
 2. Open in Visual Studio 2022+ or VS Code
 
 3. Run the project
@@ -50,22 +53,41 @@ Controller ➜ Service ➜ Repository + Event Publisher ➜ Model
 4. Test the endpoint: POST http://localhost:5000/bank/withdraw?accountId=1&amount=100
 
 ---
+## API Testing via Swagger
+
+Swagger UI is enabled for this project to easily test the `/bank/withdraw` endpoint.
+
+You can run the project and navigate to:
+```
+http://localhost:{your-port}/swagger
+```
+From there, you can simulate a withdrawal with parameters like:
+```
+accountId: 1 amount: 100
+```
+### Example:
+![Swagger Screenshot](docs/swagger-ui.png)
+---
 
 ## Notes on Language Preference
 While I used C# for this exercise, I'm fully comfortable working in Java or C++ as well.
 My goal was to demonstrate architectural thinking and clean code practices — transferable across languages.
 
 Project Structure
-/Models              -> Domain entities (Account, WithdrawalEvent)
+```/Models              -> Domain entities (Account, WithdrawalEvent)
  /Repositories       -> Data access abstraction & mock implementation
  /Services           -> Business logic layer
  /Events             -> Event publishing (SNS simulation)
  /Controllers        -> API routing
  Program.cs          -> DI setup and application entry point
+```
 
 ## Unclear Library Usage
-No third-party or ambiguous libraries were used in this example. All functionality relies on built-in .NET libraries.
+The only external library added was:
 
+- `Swashbuckle.AspNetCore`: Used to enable Swagger UI for API testing and demonstration.
+
+All other functionality relies on built-in .NET libraries.
 
 ## Testing
 Per the assessment, formal unit/integration testing was out of scope — however, this architecture is fully testable and can easily support:
