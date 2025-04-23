@@ -42,8 +42,10 @@ Controller ➜ Service ➜ Repository + Event Publisher ➜ Model
 
 ## How to Run
 
-1. Clone the repo: git clone https://github.com/ShanwillS/BankWithdrawalAPI.git
-
+1. Clone the repo:
+  ```
+    git clone https://github.com/ShanwillS/BankWithdrawalAPI.git
+  ```
 2. Open in Visual Studio 2022+ or VS Code
 
 3. Run the project
