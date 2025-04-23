@@ -56,12 +56,12 @@ While I used C# for this exercise, I'm fully comfortable working in Java or C++ 
 My goal was to demonstrate architectural thinking and clean code practices — transferable across languages.
 
 Project Structure
-/Models              -> Domain entities (Account, WithdrawalEvent)
+```/Models              -> Domain entities (Account, WithdrawalEvent)
  /Repositories       -> Data access abstraction & mock implementation
  /Services           -> Business logic layer
  /Events             -> Event publishing (SNS simulation)
  /Controllers        -> API routing
- Program.cs          -> DI setup and application entry point
+ Program.cs          -> DI setup and application entry point```
 
 ## Unclear Library Usage
 No third-party or ambiguous libraries were used in this example. All functionality relies on built-in .NET libraries.
