@@ -27,3 +27,11 @@ C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\obj\Debug\net
 C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\obj\Debug\net8.0\BankWithdrawalAPI.pdb
 C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\obj\Debug\net8.0\BankWithdrawalAPI.genruntimeconfig.cache
 C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\obj\Debug\net8.0\ref\BankWithdrawalAPI.dll
+C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\obj\Debug\net8.0\BankWithdrawalAPI.csproj.AssemblyReference.cache
+C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\obj\Debug\net8.0\BankWithdrawalAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\obj\Debug\net8.0\BankWithdrawalAPI.sourcelink.json
+C:\Users\Shanwill\source\repos\BankWithdrawalAPI\BankWithdrawalAPI\obj\Debug\net8.0\BankWith.862CBF14.Up2Date

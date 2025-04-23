@@ -1,0 +1,40 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "BankWithdrawalAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/bank/withdraw": {
+      "post": {
+        "tags": [
+          "BankAccount"
+        ],
+        "parameters": [
+          {
+            "name": "accountId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "amount",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
