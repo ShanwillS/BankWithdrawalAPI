@@ -66,7 +66,7 @@ From there, you can simulate a withdrawal with parameters like:
 accountId: 1 amount: 100
 ```
 ### Example:
-![Swagger Screenshot](docs/swagger-ui.png)
+![Swagger Screenshot](BankWithdrawalAPI/docs/swagger-ui.png)
 ---
 
 ## Notes on Language Preference
