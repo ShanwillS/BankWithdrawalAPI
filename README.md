@@ -17,8 +17,9 @@ The core business function is to allow a withdrawal from a bank account, ensurin
 ## Architecture Overview
 
 This project follows a simplified **Clean Architecture** approach:
-
+```
 Controller ➜ Service ➜ Repository + Event Publisher ➜ Model
+```
 
 - **Controller**: Handles HTTP requests
 - **Service**: Contains business logic (withdrawal rules, flow control)
@@ -61,7 +62,8 @@ Project Structure
  /Services           -> Business logic layer
  /Events             -> Event publishing (SNS simulation)
  /Controllers        -> API routing
- Program.cs          -> DI setup and application entry point```
+ Program.cs          -> DI setup and application entry point
+```
 
 ## Unclear Library Usage
 No third-party or ambiguous libraries were used in this example. All functionality relies on built-in .NET libraries.
