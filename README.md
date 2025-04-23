@@ -50,7 +50,7 @@ Controller ➜ Service ➜ Repository + Event Publisher ➜ Model
 
 3. Run the project
 
-4. Test the endpoint: POST http://localhost:5000/bank/withdraw?accountId=1&amount=100
+4. Test the endpoint: POST http://localhost:{your-port}/bank/withdraw?accountId=1&amount=200
 
 ---
 ## API Testing via Swagger
