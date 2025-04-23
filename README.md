@@ -53,6 +53,21 @@ Controller ➜ Service ➜ Repository + Event Publisher ➜ Model
 4. Test the endpoint: POST http://localhost:5000/bank/withdraw?accountId=1&amount=100
 
 ---
+## API Testing via Swagger
+
+Swagger UI is enabled for this project to easily test the `/bank/withdraw` endpoint.
+
+You can run the project and navigate to:
+```
+http://localhost:{your-port}/swagger
+```
+From there, you can simulate a withdrawal with parameters like:
+```
+accountId: 1 amount: 100
+```
+### Example:
+![Swagger Screenshot](docs/swagger-ui.png)
+---
 
 ## Notes on Language Preference
 While I used C# for this exercise, I'm fully comfortable working in Java or C++ as well.
@@ -68,8 +83,11 @@ Project Structure
 ```
 
 ## Unclear Library Usage
-No third-party or ambiguous libraries were used in this example. All functionality relies on built-in .NET libraries.
+The only external library added was:
 
+- `Swashbuckle.AspNetCore`: Used to enable Swagger UI for API testing and demonstration.
+
+All other functionality relies on built-in .NET libraries.
 
 ## Testing
 Per the assessment, formal unit/integration testing was out of scope — however, this architecture is fully testable and can easily support:
